@@ -50,26 +50,74 @@ nav ul {
 .section2{
   width: 100%;
   height: 100vh;
-  max-height: 100vh;
   background-color: rebeccapurple;
 } 
 
-
-.section2 > .newspaper{
-   column-count: 2;
-    column-rule-width: 3px;
-    column-rule-style: dotted;
-    column-rule-color: #ff0000; 
+.newspaper {
+padding-top: 40px;
+padding-left: 20px;
+padding-right: 20px;
 }
-.section2 > .newspaper > figure{
+
+.newspaper img {
+  float: left; 
+  margin-right: 20px; 
+  max-width: 50%; 
+}
+
+.newspaper article {
+  margin-top: 0; 
+  font-size: 20px;
+  text-align: justify;
+}
+
+
+@media (max-width: 768px) {
+  .newspaper img {
+    float: none;
+    max-width: 100%;
+    margin-right: 0;
+  }
+
+  .newspaper article {
+    margin-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .section2 {
+    height: auto; /* Define a altura para automática para acomodar o conteúdo */
+  }
+}
+
+
+
+
+
+.section3{
   width: 100%;
-  height: 100%;
+  height: 100vh;
+  background-color: rgb(255, 25, 9);
+} 
+
+.newspaper2 {
+padding-top: 40px;
+padding-left: 20px;
+padding-right: 20px;
 }
 
-.section2 > .newspaper > figure > img{
-  width: 20%;
-  height: 20%;
-  display: block;
-  margin: auto;
+
+
+
+
+@media (max-width: 768px) {
+  
+
+  
+
+  .section3 {
+    height: auto; /* Define a altura para automática para acomodar o conteúdo */
+  }
 }
+
+
 
