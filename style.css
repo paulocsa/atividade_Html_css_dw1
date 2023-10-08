@@ -55,7 +55,7 @@ nav ul {
   text-align: center;
   padding: 20px;
   height: auto;
-  background-color: #c5b093;
+  background-color: #e7c599;
 }
 
 .section2 > .newspaper {
@@ -151,7 +151,7 @@ article {
 .section4{
   width: 100%;
   height: 100vh;
-  background-color: rgb(120, 153, 0);
+  background-color: #e7c599;
   display: flex;
   justify-content: center; 
   align-items: center; 
@@ -164,5 +164,12 @@ article {
     column-gap: 40px;    
     column-rule-width: 3px;
     column-rule-style: solid;
-    column-rule-color: #ae9f49;
+    column-rule-color: #000000;
+}
+
+
+footer{
+  width: 100%;
+  height: 40px;
+  background-color: #ee9f5f;
 }
